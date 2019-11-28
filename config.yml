@@ -44,7 +44,7 @@ params:
   social_image_path:    /docs/4.3/assets/brand/bootstrap-social.png
   social_logo_path:     /docs/4.3/assets/brand/bootstrap-social-logo.png
 
-  current_version:      "0.0.1"
+  current_version:      "4.3.1"
   current_ruby_version: "4.3.1"
   rfs_version:          "9.0.2"
   docs_version:         "4.3"
