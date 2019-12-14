@@ -64,6 +64,7 @@
     "test": "npm-run-all lint dist js-test docs-build docs-lint",
     "netlify": "npm-run-all dist release-sri docs-production",
     "watch": "npm-run-all --parallel watch-*",
+    "watch-fonts": "cp -rfv site/assets/fonts dist/fonts",
     "watch-css-main": "nodemon --watch scss/ --ext scss --exec \"npm-run-all css-lint css-compile css-prefix\"",
     "watch-css-docs": "nodemon --watch site/assets/scss/ --ext scss --exec \"npm run css-lint\"",
     "watch-js-main": "nodemon --watch js/src/ --ext js --exec \"npm-run-all js-lint js-compile\"",
