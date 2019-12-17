@@ -56,7 +56,7 @@
     "docs-serve": "hugo server --port 9001 --disableFastRender",
     "docs-serve-only": "serve _gh_pages --listen 9001",
     "update-deps": "ncu -a -x karma-browserstack-launcher && npm update && echo Manually update site/assets/js/vendor",
-    "release": "npm-run-all dist release-sri release-zip docs-production push-pages",
+    "release": "npm-run-all dist release-sri release-zip docs-production",
     "release-sri": "node build/generate-sri.js",
     "release-version": "node build/change-version.js",
     "release-zip": "cross-env-shell \"rm -rf bootstrap-$npm_package_version-dist && cp -r dist/ bootstrap-$npm_package_version-dist && zip -r9 bootstrap-$npm_package_version-dist.zip bootstrap-$npm_package_version-dist && rm -rf bootstrap-$npm_package_version-dist\"",
@@ -67,7 +67,6 @@
     "watch-css-main": "nodemon --watch scss/ --ext scss --exec \"npm-run-all css-lint css-compile css-prefix\"",
     "watch-css-docs": "nodemon --watch site/assets/scss/ --ext scss --exec \"npm run css-lint\"",
     "watch-js-main": "nodemon --watch js/src/ --ext js --exec \"npm-run-all js-lint js-compile\"",
-    "push-pages": "git push -d origin gh-pages; git branch -D gh-pages; git subtree push --prefix=_gh_pages origin gh-pages",
     "watch-js-docs": "nodemon --watch site/assets/js/ --ext js --exec \"npm run js-lint\""
   },
   "style": "dist/css/bootstrap.css",

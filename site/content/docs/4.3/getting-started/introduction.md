@@ -43,13 +43,7 @@ Be sure to have your pages set up with the latest design and development standar
 
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- Popper.js first, then Bootstrap JS -->
-    <script src="{{< param "cdn.popper" >}}" integrity="{{< param "cdn.popper_hash" >}}" crossorigin="anonymous"></script>
-    <script src="{{< param "cdn.js" >}}" integrity="{{< param "cdn.js_hash" >}}" crossorigin="anonymous"></script>
-
+    <span class="h1 text-primary">FloSports</span>
   </body>
 </html>
 {{< /highlight >}}
@@ -102,16 +96,3 @@ Learn more about [box model and sizing at CSS Tricks](https://css-tricks.com/box
 ### Reboot
 
 For improved cross-browser rendering, we use [Reboot]({{< docsref "/content/reboot" >}}) to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
-
-## Community
-
-Stay up to date on the development of FloSCSS and reach out to the community with these helpful resources.
-
-- Follow [@getbootstrap on Twitter](https://twitter.com/{{< param twitter >}}).
-- Read and subscribe to [The Official FloSCSS Blog]({{< param blog >}}).
-- Join [the official Slack room]({{< param slack >}}).
-- Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `##bootstrap` channel.
-- Implementation help may be found at Stack Overflow (tagged [`bootstrap-4`](https://stackoverflow.com/questions/tagged/bootstrap-4)).
-- Developers should use the keyword `bootstrap` on packages which modify or add to the functionality of Bootstrap when distributing through [npm](https://www.npmjs.com/search?q=keywords:bootstrap) or similar delivery mechanisms for maximum discoverability.
-
-You can also follow [@getbootstrap on Twitter](https://twitter.com/{{< param twitter >}}) for the latest gossip and awesome music videos.

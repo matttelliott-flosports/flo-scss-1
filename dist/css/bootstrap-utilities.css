@@ -162,7 +162,7 @@
 }
 
 .border-primary {
-  border-color: #0d6efd !important;
+  border-color: #ff140f !important;
 }
 
 .border-secondary {
@@ -182,7 +182,7 @@
 }
 
 .border-danger {
-  border-color: #dc3545 !important;
+  border-color: #0d6efd !important;
 }
 
 .border-light {
@@ -1018,7 +1018,7 @@
 }
 
 .text-primary {
-  color: #0d6efd !important;
+  color: #ff140f !important;
 }
 
 .text-secondary {
@@ -1038,7 +1038,7 @@
 }
 
 .text-danger {
-  color: #dc3545 !important;
+  color: #0d6efd !important;
 }
 
 .text-light {
@@ -1090,7 +1090,7 @@
 }
 
 .bg-primary {
-  background-color: #0d6efd !important;
+  background-color: #ff140f !important;
 }
 
 .bg-secondary {
@@ -1110,7 +1110,7 @@
 }
 
 .bg-danger {
-  background-color: #dc3545 !important;
+  background-color: #0d6efd !important;
 }
 
 .bg-light {
