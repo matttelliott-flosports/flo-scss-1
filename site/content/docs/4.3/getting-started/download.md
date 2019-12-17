@@ -8,29 +8,28 @@ toc: true
 
 ## Compiled CSS and JS
 
-Download ready-to-use compiled code for **Bootstrap v{{< param current_version >}}** to easily drop into your project, which includes:
+Download ready-to-use compiled code for **FloSCSS v{{< param current_version >}}** to easily drop into your project, which includes:
 
 - Compiled and minified CSS bundles (see [CSS files comparison]({{< docsref "/getting-started/contents#css-files" >}}))
-- Compiled and minified JavaScript plugins
 
-This doesn't include documentation, source files, or any optional JavaScript dependencies like Popper.js.
+This doesn't include documentation, source files, or any optional JavaScript
 
-<a href="{{< param "download.dist" >}}" class="btn btn-bd-primary" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download Bootstrap');">Download</a>
+<a href="{{< param "download.dist" >}}" class="btn btn-outline-primary" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download FloSCSS');">Download</a>
 
 ## Source files
 
-Compile Bootstrap with your own asset pipeline by downloading our source Sass, JavaScript, and documentation files. This option requires some additional tooling:
+Compile FloSCSS with your own asset pipeline by downloading our source Sass and documentation files. This option requires some additional tooling:
 
 - Sass compiler (Libsass or Ruby Sass is supported) for compiling your CSS.
 - [Autoprefixer](https://github.com/postcss/autoprefixer) for CSS vendor prefixing
 
-Should you require [build tools]({{< docsref "/getting-started/build-tools#tooling-setup" >}}), they are included for developing Bootstrap and its docs, but they're likely unsuitable for your own purposes.
+Should you require [build tools]({{< docsref "/getting-started/build-tools#tooling-setup" >}}), they are included for developing FloSCSS and its docs, but they're likely unsuitable for your own purposes.
 
-<a href="{{< param "download.source" >}}" class="btn btn-bd-primary" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download source');">Download source</a>
+<a href="{{< param "download.source" >}}" class="btn btn-outline-primary" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download source');">Download source</a>
 
 ## BootstrapCDN
 
-Skip the download with [BootstrapCDN](https://www.bootstrapcdn.com/) to deliver cached version of Bootstrap's compiled CSS and JS to your project.
+Skip the download with [BootstrapCDN](https://www.bootstrapcdn.com/) to deliver cached version of FloSCSS's compiled CSS and JS to your project.
 
 {{< highlight html >}}
 <link rel="stylesheet" href="{{< param "cdn.css" >}}" integrity="{{< param "cdn.css_hash" >}}" crossorigin="anonymous">
@@ -45,14 +44,14 @@ If you're using our compiled JavaScript, don't forget to include Popper.js, via 
 
 ## Package managers
 
-Pull in Bootstrap's **source files** into nearly any project with some of the most popular package managers. No matter the package manager, Bootstrap will **require a Sass compiler and [Autoprefixer](https://github.com/postcss/autoprefixer)** for a setup that matches our official compiled versions.
+Pull in FloSCSS's **source files** into nearly any project with some of the most popular package managers. No matter the package manager, FloSCSS will **require a Sass compiler and [Autoprefixer](https://github.com/postcss/autoprefixer)** for a setup that matches our official compiled versions.
 
 ### npm
 
-Install Bootstrap in your Node.js powered apps with [the npm package](https://www.npmjs.com/package/bootstrap):
+Install FloSCSS in your Node.js powered apps with [the npm package](https://www.npmjs.com/package/bootstrap):
 
 {{< highlight sh >}}
-npm install bootstrap
+npm install FloSCSS
 {{< /highlight >}}
 
 `const bootstrap = require('bootstrap')` or `import bootstrap from 'bootstrap'` will load all of Bootstrap's plugins onto a `bootstrap` object.

@@ -44,7 +44,7 @@ params:
   social_image_path:    /docs/4.3/assets/brand/bootstrap-social.png
   social_logo_path:     /docs/4.3/assets/brand/bootstrap-social-logo.png
 
-  current_version:      "0.0.1"
+  current_version:      "4.3.1"
   current_ruby_version: "4.3.1"
   rfs_version:          "9.0.2"
   docs_version:         "4.3"
@@ -64,7 +64,7 @@ params:
   cdn:
     # See https://www.srihash.org for info on how to generate the hashes
     css:              "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    css_hash:         "sha384-XLKOjDgI/sG7klUPkSIfPSKfA1KqPabkrV5LIxcihYUrF6y3RsB0+SlynUUHhr1x"
+    css_hash:         "sha384-5PeQixC1XpVjdfTubVwKYoxDmM5eYaqnJRzP3OgqpQ5sL/nzPqDAZvsWVknHRj1a"
     js:               "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     js_hash:          "sha384-8d7KL/Wa3ZNXYF6mYRfVEOnf+b+C36kTkEyfN8L2/PvsAyBj/OVmQtoSVdpNec/0"
     js_bundle:        "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
